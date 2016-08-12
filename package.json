@@ -1,8 +1,7 @@
 {
-  "name": "formidable-react-app-starter",
+  "name": "<%= name %>",
   "version": "0.0.1",
   "license": "MIT",
-  "repository": "https://github.com/FormidableLabs/formidable-react-starter",
   "scripts": {
     "build": "npm run clean && webpack --config configuration/webpack/webpack.config.prod.js",
     "clean": "rimraf build",
